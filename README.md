@@ -23,21 +23,21 @@ from aria2_dht_dat_parser import parse
 result = parse('dht.dat')
 ```
 
-## Example
+## Parsed Result Example
 
 ```json
 {
     "format_id": 2,
     "version": 3,
     "file_saved_time": 1620000000,
-    "local_node_id": "x"*20,
+    "local_node_id": "xxxxxxxxxxxxxxxxxxxx",
     "num_node": 100,
     "nodes": [
         {
             "ip": "127.0.0.1",
             "port": 6881,
-            "id": "x"*20
-        }, ...(in total 100 nodes)
+            "id": "xxxxxxxxxxxxxxxxxxxx"
+        }, ...
     ]
 }
 ```
