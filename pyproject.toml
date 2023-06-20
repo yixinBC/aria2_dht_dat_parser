@@ -1,0 +1,16 @@
+
+[project]
+name = "aria2_dht_dat_parser"
+version = "0.1.0"
+description = "parse aria2's dht.dat into human-readable json"
+authors = [
+    {name = "yixinBC", email = "yixinbc@foxmail.com"},
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
