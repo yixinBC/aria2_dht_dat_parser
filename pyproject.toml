@@ -3,13 +3,14 @@
 name = "aria2_dht_dat_parser"
 version = "0.1.0"
 description = "parse aria2's dht.dat into human-readable json"
-authors = [
-    {name = "yixinBC", email = "yixinbc@foxmail.com"},
-]
+authors = [{ name = "yixinBC", email = "yixinbc@foxmail.com" }]
 dependencies = []
 requires-python = ">=3.7"
 readme = "README.md"
-license = {text = "MIT"}
+license = { text = "MIT" }
+
+[project.scripts]
+aria2_dht_dat_parser = "aria2_dht_dat_parser.__main__:main"
 
 [build-system]
 requires = ["pdm-backend"]
